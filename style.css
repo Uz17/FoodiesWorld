@@ -1,0 +1,92 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+.orange{
+    color: orange;
+}
+.flexible{
+    display: flex;
+    margin-bottom: 30px;
+}
+.half{
+    width: 50%;
+    padding-left: 8%;
+}
+.img-half{
+    width: 40%;
+    padding-left: 8%;   
+    padding-right: 5%;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(green, yellow);
+    color: white;
+    padding: 10px 40px;
+    font-weight: 700;
+    border-radius: 20px;
+}
+.top-banner{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.restaurants{
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.res-type{
+    width: 40%;
+    margin-left:  4%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-right: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px gray;
+}
+#trad{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,yellow) ;
+    border-image-slice: 1;  
+}
+#Ff{
+    border-left: 7px solid;
+    border-image: linear-gradient(red,yellow) ;
+    border-image-slice: 1;  
+}
+#Mc{
+    border-left: 7px solid;
+    border-image: linear-gradient(black,yellow) ;
+    border-image-slice: 1;  
+}
+div.polaroid {
+    width: 30%;
+    margin: 2%;
+    background-color: white;
+    box-shadow: 10px 10px 30px gray;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    padding: 10px;
+  }
+  
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+  }
+.mid-banner{
+    background-image: url(images/shapes/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: blanchedalmond;
+    margin: 0;
+}
